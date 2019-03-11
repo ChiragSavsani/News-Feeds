@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_10"
+            android:text="Fusce Aliquam Bandit? Urna Quis Pulvinar. Donec Luctus Tincidunt eu Condimentum"
+            android:textColor="@color/black"
+            android:textSize="@dimen/spacing_mmxlarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtAbstract"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_10"
+            android:text="Fusce Aliquam Bandit? Urna Quis Pulvinar. Donec Luctus Tincidunt eu Condimentum"
+            android:textColor="@color/black"
+            android:textSize="@dimen/spacing_mxlarge" />
+
+        <ImageView
+            android:id="@+id/largeImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/feed_large" />
+
+        <TextView
+            android:id="@+id/imgSource"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_10"
+            android:text="Image Source: NIBSC/Science Source" />
+
+        <TextView
+            android:id="@+id/imageDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_10"
+            android:text="A colored transmission electron micrograph of the H.I.V. virus, in green, attaching to a white blood cell, in orange." />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_large"/>
+
+        <TextView
+            android:id="@+id/txtByline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_10"
+            android:textStyle="bold"
+            android:textSize="@dimen/spacing_smlarge"
+            android:textColor="@color/black"
+            android:text="By Apoorva Mandavilli" />
+
+        <TextView
+            android:id="@+id/txtPublishedDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_10"
+            android:textSize="@dimen/spacing_large"
+            android:textColor="@color/black"
+            android:text="March 4, 2019" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_large"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
